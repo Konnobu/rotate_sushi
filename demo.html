@@ -1,56 +1,58 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-	<meta charset="UTF-8">
-	<!-- bxSlider Official CSS file -->
-	<link href="./bxslider/jquery.bxslider.css" rel="stylesheet" />
-	<!-- Customize Overwrite CSS file -->
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <!-- bxSlider Official CSS file -->
+  <link href="./bxslider/jquery.bxslider.css" rel="stylesheet" />
+  <!-- Customize Overwrite CSS file -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div id="sushi_kaiten">
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-		<div>&#x1F363</div>
-    </div>
-    <!-- jQuery Library　CDN -->
-    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <!-- bxSlider js file -->
-	<script src="./bxslider/jquery.bxslider.min.js"></script>
-	<!-- twemoji js -->
-	<script src="http://twemoji.maxcdn.com/twemoji.min.js"></script>
-    <script>
-	twemoji.parse(document.body, {
-		size: 72
-	});
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+    <div>&#x1F363</div>
+  </div>
+  <!-- jQuery Library　CDN -->
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!-- bxSlider js file -->
+  <script src="./bxslider/jquery.bxslider.min.js"></script>
+  <!-- twemoji js -->
+  <script src="http://twemoji.maxcdn.com/twemoji.min.js"></script>
+  <script>
+  // Summon the sushi
+  twemoji.parse(document.body, {
+    size: 72
+  });
 
-	$(document).ready(function(){
-		$('#sushi_kaiten').bxSlider({
-			ticker: 'true',
-			speed: 10000,
-			minSlides: 10,
-			maxSlides: 5,
-			slideWidth: 1000,
-			slideMargin: 10
-		});
-	});
-    </script>
+  // Flowing sushi
+  $(document).ready(function(){
+    $('#sushi_kaiten').bxSlider({
+      ticker: 'true',
+      speed: 10000,
+      minSlides: 10,
+      maxSlides: 5,
+      slideWidth: 1000,
+      slideMargin: 10
+    });
+  });
+  </script>
 </body>
 </html>
